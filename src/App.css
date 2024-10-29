@@ -1,0 +1,113 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #1c1c1c; 
+  color: #f6f7f8; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+.Header {
+  background-color: #ff4500; 
+  color: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #555; 
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #444; 
+  color: #f6f7f8; 
+}
+
+
+button {
+  background-color: #ff4500; 
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e03e00; 
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Post {
+  border: 1px solid #555;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #333; 
+}
+
+.PostInfo {
+  margin-bottom: 10px;
+}
+
+.Respostas {
+  margin-top: 10px;
+  border: 1px solid #555; 
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #444; 
+}
+
+
+@media (max-width: 768px) {
+  .Container {
+      width: 100%;
+  }
+}
+
+.Container {
+  display: flex;
+  justify-content: space-between; 
+}
+
+
+.CriarDiscussao {
+  flex: 1; 
+  margin-right: 20px; 
+}
+
+.ListaPosts {
+  flex: 2; 
+}
+
+
+.CriarDiscussao div {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #2c2c2c;
+}
+
+ 
